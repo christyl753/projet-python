@@ -1,9 +1,4 @@
-"""
-Ce projet a été réalisé par:
-Bitomo Joëlle 
-Nfon II Elaine
-Ngoh yom Alan
-"""
+
 import mysql.connector
 import tkinter as tk
 from tkinter import ttk, messagebox
@@ -112,3 +107,4 @@ class GestionCommande:
 # Fermer la connexion
 cursor.close()
 conn.close()
+
