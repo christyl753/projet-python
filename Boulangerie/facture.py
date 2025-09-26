@@ -1,9 +1,4 @@
-"""
-Ce projet a été réalisé par:
-Bitomo Joëlle 
-Nfon II Elaine
-Ngoh yom Alan
-"""
+
 # Ce fichier sert à la gestion des factures des clients 
 import mysql.connector
 import tkinter as tk
@@ -146,3 +141,4 @@ class GestionFacture:
 # Fermer la connexion
 cursor.close()
 conn.close()
+
