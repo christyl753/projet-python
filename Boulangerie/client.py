@@ -1,9 +1,4 @@
-"""
-Ce projet a été réalisé par:
-Bitomo Joëlle 
-Nfon II Elaine
-Ngoh yom Alan
-"""
+
 # ce fichier sert à l'enregistrement des clients dans la base de données
 import mysql.connector
 import tkinter as tk
@@ -79,3 +74,4 @@ class GestionClient:
 # Fermer la connexion
 cursor.close()
 conn.close()
+
