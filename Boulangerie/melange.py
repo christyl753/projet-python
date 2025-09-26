@@ -1,9 +1,3 @@
-"""
-Ce projet a été réalisé par:
-Bitomo Joëlle 
-Nfon II Elaine
-Ngoh yom Alan
-"""
 # ce fichier sert à la gestion des melanges necessaires pour les commandes de la semaine prochaine
 import tkinter as tk
 from tkinter import ttk
@@ -48,4 +42,5 @@ class GestionMelange:
                 melange['QuantiteMelange']
             ))
         
+
         tree.pack(expand=True, fill='both', padx=20, pady=20)
