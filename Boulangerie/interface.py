@@ -1,9 +1,4 @@
-"""
-Ce projet a été réalisé par:
-Bitomo Joëlle 
-Nfon II Elaine
-Ngoh yom Alan
-"""
+
 """ Ce fichier sert à la gestion de l'interface principale de l'application
  et fait appel aux autres fichiers ou modules pour fonctionner correctement."""
 import tkinter as tk
@@ -81,4 +76,5 @@ class ApplicationGestion:
 
 if __name__ == "__main__":
     app = ApplicationGestion()
+
     app.executer()
